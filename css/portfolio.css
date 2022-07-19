@@ -1,10 +1,13 @@
 .portfolio {
     background-color: #fff;
     padding: 100px 15px;
+    
 }
 
 .portfolio .container .row .title h1::before {
     left: 30%;
+    justify-content: space-between;
+
 }
 
 .filter-btn {
@@ -43,6 +46,7 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .item {
@@ -50,6 +54,15 @@
     max-width: 33.33%;
     position: relative;
     padding: 8px;
+
+
+
+    margin-bottom: 30px;
+    border: 20px solid rgb(255, 253, 253);
+    border-radius: 0px;
+    text-align: center;
+    position: relative;
+
 }
 
 .inner {
